@@ -1,0 +1,16 @@
+html .el-table {
+  &.vertical-align-top {
+    .el-table__cell {
+      vertical-align: top;
+    }
+  }
+
+  th.el-table__cell {
+    background-color: #e4e4e7;
+
+    .cell {
+      font-weight: 700;
+      color: #6b7280;
+    }
+  }
+}
